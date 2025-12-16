@@ -1,0 +1,4 @@
+FROM mongo:7-jammy
+ENV MONGO_INITDB_DATABASE=mydb
+EXPOSE 27017
+CMD ["mongod"]
